@@ -1,0 +1,441 @@
+.main {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(36, 138, 156);
+    box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(168, 164, 164);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.content-item {
+    width: 45%;
+    margin: 56px 30px;
+    padding: 20px;
+}
+
+.content-item h2 {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-size: 70px
+}
+
+.content-item p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.content-item p span {
+    text-align: center;
+    color: rgb(167, 25, 25);
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.btn {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(167, 25, 25);
+    border: none;
+    box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+    transition: 0.5s;
+    margin-left: 70px;
+}
+
+.btn:hover {
+    background-color: rgb(36, 138, 156);
+    color: white;
+}
+
+.content-item p {
+    text-align: center;
+    color: white;
+}
+
+.content-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+}
+
+.product-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(168, 164, 164);
+    margin-top: 50px;
+    box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+}
+
+.product-item {
+    width: 15%;
+    height: 270px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+}
+
+.product-item:hover {
+    background-color: rgb(36, 138, 156);
+    color: white;
+    transition: 0.5s;
+}
+
+.product-item h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.product-item img {
+    width: 100%;
+    height: 210px;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px 10px rgb(29, 27, 27);
+}
+
+footer {
+    background-color: rgb(167, 25, 25);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: italic;
+    box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+    transition: 0.5s;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+footer p span {
+    color: rgb(34, 117, 8);
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+footer:hover {
+    background-color: rgb(36, 138, 156);
+    color: white;
+}
+
+footer:hover p span {
+    color: rgb(29, 27, 27);
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@media (max-width: 1024px) {
+    .content-item h2 {
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        font-size: 50px
+    }
+
+    .content-item p {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .content-item p span {
+        text-align: center;
+        color: rgb(34, 117, 8);
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+
+    }
+
+    .btn {
+        color: white;
+        background-color: rgb(34, 117, 8);
+        border: none;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+        transition: 0.5s;
+    }
+
+    .content-item img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+    }
+
+    footer {
+        background-color: rgb(34, 117, 8);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        font-style: italic;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+        transition: 0.5s;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    footer p span {
+        color: rgb(167, 25, 25);
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    footer:hover {
+        background-color: rgb(36, 138, 156);
+        color: white;
+    }
+
+    footer:hover p span {
+        color: rgb(29, 27, 27);
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-item h2 {
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        font-size: 40px
+    }
+
+    .content-item p {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+    }
+
+    .content-item p span {
+        text-align: center;
+        color: rgb(206, 228, 7);
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+
+    }
+    .btn {
+        color: rgb(49, 48, 48);
+        background-color: rgb(206, 228, 7);
+        border: none;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+        transition: 0.5s;
+    }
+    .content-item img {
+        width: 100%;
+        height: 450px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+    }
+    .product-item {
+        width: 25%;
+        height: 270px;
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+    }
+    footer {
+        background-color: rgb(206, 228, 7);
+        color: rgb(56, 54, 54);
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        font-style: italic;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+        transition: 0.5s;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    footer p span {
+        color: rgb(34, 117, 8);
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    footer:hover {
+        background-color: rgb(36, 138, 156);
+        color: white;
+    }
+}
+@media (max-width: 425px) {
+    .content {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(168, 164, 164);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .content-item {
+        width:fit-content;
+        margin-top: 0;
+        padding: 10px;
+    }
+    .content-item h2 {
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        font-size: 30px
+    }
+
+    .content-item p {
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+
+    .content-item p span {
+        text-align: center;
+        color: rgb(44, 53, 172);
+        font-size: 20px;
+        font-weight: 600;
+        font-style: italic;
+
+    }
+    .content-item img {
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+    }
+    .btn {
+        text-align: center;
+        padding: 8px;
+        margin: 8px;
+        font-size: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(44, 53, 172);
+        border: none;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+        transition: 0.5s;
+        margin-left: 70px;
+    }
+    .product-item {
+        width: 28%;
+        height: 270px;
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+    }
+    footer {
+        background-color: rgb(44, 53, 172);
+        color: rgb(250, 250, 250);
+       
+    }
+
+    footer p span {
+        color: rgb(206, 228, 7);
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    footer:hover {
+        background-color: rgb(36, 138, 156);
+        color: white;
+    }
+}
+@media (max-width: 375px) {
+    .content-item p span {
+        text-align: center;
+        color: rgb(147, 44, 172);
+    }
+    .btn{
+        background-color: rgb(147, 44, 172);
+    }
+    .product-item {
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 10px rgb(29, 27, 27);
+        margin-left: 64px;
+    }
+    footer {
+        background-color: rgb(147, 44, 172);
+        color: rgb(250, 250, 250);
+       
+    }
+
+    footer p span {
+        color: rgb(44, 53, 172);
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+}
